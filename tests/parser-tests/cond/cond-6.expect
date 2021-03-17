@@ -1,0 +1,16 @@
+[
+  {
+    "type": "cond",
+    "condClauses": [],
+    "elseClause": {
+      "type": "sequence",
+      "expressions": [
+        {
+          "type": "procedurecall",
+          "operator": { "type": "variable", "value": "action" },
+          "operands": []
+        }
+      ]
+    }
+  }
+]

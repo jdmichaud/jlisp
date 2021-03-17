@@ -1,0 +1,1376 @@
+>> undefined
+[
+  {
+    type: 'list',
+    datums: [
+      {
+        type: 'terminal',
+        content: {
+          type: 'identifier',
+          endIndex: 141,
+          value: 'define',
+          pos: { line: 4, col: 1 }
+        }
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 153,
+              value: 'clear-line',
+              pos: { line: 4, col: 9 }
+            }
+          }
+        ]
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 161,
+              value: 'let',
+              pos: { line: 5, col: 3 }
+            }
+          },
+          {
+            type: 'list',
+            datums: [
+              {
+                type: 'list',
+                datums: [
+                  {
+                    type: 'terminal',
+                    content: {
+                      type: 'identifier',
+                      endIndex: 173,
+                      value: 'next-char',
+                      pos: { line: 5, col: 9 }
+                    }
+                  },
+                  {
+                    type: 'list',
+                    datums: [
+                      {
+                        type: 'terminal',
+                        content: {
+                          type: 'identifier',
+                          endIndex: 184,
+                          value: 'read-char',
+                          pos: { line: 5, col: 20 }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            type: 'list',
+            datums: [
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 195,
+                  value: 'if',
+                  pos: { line: 6, col: 5 }
+                }
+              },
+              {
+                type: 'list',
+                datums: [
+                  {
+                    type: 'terminal',
+                    content: {
+                      type: 'identifier',
+                      endIndex: 200,
+                      value: 'not',
+                      pos: { line: 6, col: 9 }
+                    }
+                  },
+                  {
+                    type: 'list',
+                    datums: [
+                      {
+                        type: 'terminal',
+                        content: {
+                          type: 'identifier',
+                          endIndex: 204,
+                          value: 'or',
+                          pos: { line: 6, col: 14 }
+                        }
+                      },
+                      {
+                        type: 'list',
+                        datums: [
+                          {
+                            type: 'terminal',
+                            content: {
+                              type: 'identifier',
+                              endIndex: 217,
+                              value: 'eof-object?',
+                              pos: { line: 6, col: 18 }
+                            }
+                          },
+                          {
+                            type: 'terminal',
+                            content: {
+                              type: 'identifier',
+                              endIndex: 227,
+                              value: 'next-char',
+                              pos: { line: 6, col: 30 }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        type: 'list',
+                        datums: [
+                          {
+                            type: 'terminal',
+                            content: {
+                              type: 'identifier',
+                              endIndex: 236,
+                              value: 'char=?',
+                              pos: { line: 6, col: 42 }
+                            }
+                          },
+                          {
+                            type: 'terminal',
+                            content: {
+                              type: 'identifier',
+                              endIndex: 246,
+                              value: 'next-char',
+                              pos: { line: 6, col: 49 }
+                            }
+                          },
+                          {
+                            type: 'terminal',
+                            content: {
+                              type: 'character',
+                              endIndex: 256,
+                              value: '#\\newline',
+                              pos: { line: 6, col: 59 }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                type: 'list',
+                datums: [
+                  {
+                    type: 'terminal',
+                    content: {
+                      type: 'identifier',
+                      endIndex: 279,
+                      value: 'clear-line',
+                      pos: { line: 7, col: 9 }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    type: 'list',
+    datums: [
+      {
+        type: 'terminal',
+        content: {
+          type: 'identifier',
+          endIndex: 366,
+          value: 'define',
+          pos: { line: 13, col: 1 }
+        }
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 373,
+              value: 'error',
+              pos: { line: 13, col: 9 }
+            }
+          },
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 381,
+              value: 'message',
+              pos: { line: 13, col: 15 }
+            }
+          }
+        ]
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 396,
+              value: 'error-cont',
+              pos: { line: 14, col: 3 }
+            }
+          },
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 404,
+              value: 'message',
+              pos: { line: 14, col: 14 }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    type: 'list',
+    datums: [
+      {
+        type: 'terminal',
+        content: {
+          type: 'identifier',
+          endIndex: 416,
+          value: 'define',
+          pos: { line: 17, col: 1 }
+        }
+      },
+      {
+        type: 'terminal',
+        content: {
+          type: 'identifier',
+          endIndex: 435,
+          value: 'error-continuation',
+          pos: { line: 17, col: 8 }
+        }
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 442,
+              value: 'let',
+              pos: { line: 18, col: 3 }
+            }
+          },
+          {
+            type: 'list',
+            datums: [
+              {
+                type: 'list',
+                datums: [
+                  {
+                    type: 'terminal',
+                    content: {
+                      type: 'identifier',
+                      endIndex: 452,
+                      value: 'message',
+                      pos: { line: 18, col: 9 }
+                    }
+                  },
+                  {
+                    type: 'list',
+                    datums: [
+                      {
+                        type: 'terminal',
+                        content: {
+                          type: 'identifier',
+                          endIndex: 484,
+                          value: 'call-with-current-continuation',
+                          pos: { line: 18, col: 18 }
+                        }
+                      },
+                      {
+                        type: 'list',
+                        datums: [
+                          {
+                            type: 'terminal',
+                            content: {
+                              type: 'identifier',
+                              endIndex: 492,
+                              value: 'lambda',
+                              pos: { line: 18, col: 50 }
+                            }
+                          },
+                          {
+                            type: 'list',
+                            datums: [
+                              {
+                                type: 'terminal',
+                                content: {
+                                  type: 'identifier',
+                                  endIndex: 495,
+                                  value: 'c',
+                                  pos: { line: 18, col: 58 }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            type: 'terminal',
+                            content: {
+                              type: 'identifier',
+                              endIndex: 498,
+                              value: 'c',
+                              pos: { line: 18, col: 61 }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            type: 'list',
+            datums: [
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 510,
+                  value: 'if',
+                  pos: { line: 19, col: 5 }
+                }
+              },
+              {
+                type: 'list',
+                datums: [
+                  {
+                    type: 'terminal',
+                    content: {
+                      type: 'identifier',
+                      endIndex: 519,
+                      value: 'string?',
+                      pos: { line: 19, col: 9 }
+                    }
+                  },
+                  {
+                    type: 'terminal',
+                    content: {
+                      type: 'identifier',
+                      endIndex: 527,
+                      value: 'message',
+                      pos: { line: 19, col: 17 }
+                    }
+                  }
+                ]
+              },
+              {
+                type: 'list',
+                datums: [
+                  {
+                    type: 'terminal',
+                    content: {
+                      type: 'identifier',
+                      endIndex: 543,
+                      value: 'begin',
+                      pos: { line: 20, col: 9 }
+                    }
+                  },
+                  {
+                    type: 'list',
+                    datums: [
+                      {
+                        type: 'terminal',
+                        content: {
+                          type: 'identifier',
+                          endIndex: 552,
+                          value: 'display',
+                          pos: { line: 20, col: 16 }
+                        }
+                      },
+                      {
+                        type: 'terminal',
+                        content: {
+                          type: 'string',
+                          endIndex: 562,
+                          value: 'Error: ',
+                          pos: { line: 20, col: 24 }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    type: 'list',
+                    datums: [
+                      {
+                        type: 'terminal',
+                        content: {
+                          type: 'identifier',
+                          endIndex: 587,
+                          value: 'display',
+                          pos: { line: 21, col: 16 }
+                        }
+                      },
+                      {
+                        type: 'terminal',
+                        content: {
+                          type: 'identifier',
+                          endIndex: 595,
+                          value: 'message',
+                          pos: { line: 21, col: 24 }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    type: 'list',
+                    datums: [
+                      {
+                        type: 'terminal',
+                        content: {
+                          type: 'identifier',
+                          endIndex: 620,
+                          value: 'newline',
+                          pos: { line: 22, col: 16 }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    type: 'list',
+                    datums: [
+                      {
+                        type: 'terminal',
+                        content: {
+                          type: 'identifier',
+                          endIndex: 648,
+                          value: 'clear-line',
+                          pos: { line: 23, col: 16 }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 677,
+              value: 'message',
+              pos: { line: 26, col: 4 }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    type: 'list',
+    datums: [
+      {
+        type: 'terminal',
+        content: {
+          type: 'identifier',
+          endIndex: 692,
+          value: 'define',
+          pos: { line: 30, col: 1 }
+        }
+      },
+      {
+        type: 'terminal',
+        content: {
+          type: 'identifier',
+          endIndex: 703,
+          value: 'error-cont',
+          pos: { line: 30, col: 8 }
+        }
+      },
+      {
+        type: 'terminal',
+        content: {
+          type: 'identifier',
+          endIndex: 722,
+          value: 'error-continuation',
+          pos: { line: 30, col: 19 }
+        }
+      }
+    ]
+  },
+  {
+    type: 'list',
+    datums: [
+      {
+        type: 'terminal',
+        content: {
+          type: 'identifier',
+          endIndex: 844,
+          value: 'define',
+          pos: { line: 34, col: 1 }
+        }
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 862,
+              value: 'get-non-eof-char',
+              pos: { line: 34, col: 9 }
+            }
+          }
+        ]
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 870,
+              value: 'let',
+              pos: { line: 35, col: 3 }
+            }
+          },
+          {
+            type: 'list',
+            datums: [
+              {
+                type: 'list',
+                datums: [
+                  {
+                    type: 'terminal',
+                    content: {
+                      type: 'identifier',
+                      endIndex: 877,
+                      value: 'char',
+                      pos: { line: 35, col: 9 }
+                    }
+                  },
+                  {
+                    type: 'list',
+                    datums: [
+                      {
+                        type: 'terminal',
+                        content: {
+                          type: 'identifier',
+                          endIndex: 888,
+                          value: 'read-char',
+                          pos: { line: 35, col: 15 }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            type: 'list',
+            datums: [
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 899,
+                  value: 'if',
+                  pos: { line: 36, col: 5 }
+                }
+              },
+              {
+                type: 'list',
+                datums: [
+                  {
+                    type: 'terminal',
+                    content: {
+                      type: 'identifier',
+                      endIndex: 912,
+                      value: 'eof-object?',
+                      pos: { line: 36, col: 9 }
+                    }
+                  },
+                  {
+                    type: 'terminal',
+                    content: {
+                      type: 'identifier',
+                      endIndex: 917,
+                      value: 'char',
+                      pos: { line: 36, col: 21 }
+                    }
+                  }
+                ]
+              },
+              {
+                type: 'list',
+                datums: [
+                  {
+                    type: 'terminal',
+                    content: {
+                      type: 'identifier',
+                      endIndex: 933,
+                      value: 'error',
+                      pos: { line: 37, col: 9 }
+                    }
+                  },
+                  {
+                    type: 'terminal',
+                    content: {
+                      type: 'string',
+                      endIndex: 947,
+                      value: 'end of file',
+                      pos: { line: 37, col: 15 }
+                    }
+                  }
+                ]
+              },
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 961,
+                  value: 'char',
+                  pos: { line: 38, col: 8 }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    type: 'list',
+    datums: [
+      {
+        type: 'terminal',
+        content: {
+          type: 'identifier',
+          endIndex: 1061,
+          value: 'define',
+          pos: { line: 45, col: 1 }
+        }
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1074,
+              value: 'whitespace?',
+              pos: { line: 45, col: 9 }
+            }
+          },
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1079,
+              value: 'char',
+              pos: { line: 45, col: 21 }
+            }
+          }
+        ]
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1086,
+              value: 'or',
+              pos: { line: 46, col: 3 }
+            }
+          },
+          {
+            type: 'list',
+            datums: [
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 1094,
+                  value: 'char=?',
+                  pos: { line: 46, col: 7 }
+                }
+              },
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 1099,
+                  value: 'char',
+                  pos: { line: 46, col: 14 }
+                }
+              },
+              {
+                type: 'terminal',
+                content: {
+                  type: 'character',
+                  endIndex: 1107,
+                  value: '#\\space',
+                  pos: { line: 46, col: 19 }
+                }
+              }
+            ]
+          },
+          {
+            type: 'list',
+            datums: [
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 1116,
+                  value: 'char=?',
+                  pos: { line: 46, col: 29 }
+                }
+              },
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 1121,
+                  value: 'char',
+                  pos: { line: 46, col: 36 }
+                }
+              },
+              {
+                type: 'terminal',
+                content: {
+                  type: 'character',
+                  endIndex: 1131,
+                  value: '#\\newline',
+                  pos: { line: 46, col: 41 }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    type: 'list',
+    datums: [
+      {
+        type: 'terminal',
+        content: {
+          type: 'identifier',
+          endIndex: 1262,
+          value: 'define',
+          pos: { line: 51, col: 1 }
+        }
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1274,
+              value: 'delimiter?',
+              pos: { line: 51, col: 9 }
+            }
+          },
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1279,
+              value: 'char',
+              pos: { line: 51, col: 20 }
+            }
+          }
+        ]
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1286,
+              value: 'or',
+              pos: { line: 52, col: 3 }
+            }
+          },
+          {
+            type: 'list',
+            datums: [
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 1299,
+                  value: 'eof-object?',
+                  pos: { line: 52, col: 7 }
+                }
+              },
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 1304,
+                  value: 'char',
+                  pos: { line: 52, col: 19 }
+                }
+              }
+            ]
+          },
+          {
+            type: 'list',
+            datums: [
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 1324,
+                  value: 'whitespace?',
+                  pos: { line: 53, col: 7 }
+                }
+              },
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 1329,
+                  value: 'char',
+                  pos: { line: 53, col: 19 }
+                }
+              }
+            ]
+          },
+          {
+            type: 'list',
+            datums: [
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 1344,
+                  value: 'char=?',
+                  pos: { line: 54, col: 7 }
+                }
+              },
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 1349,
+                  value: 'char',
+                  pos: { line: 54, col: 14 }
+                }
+              },
+              {
+                type: 'terminal',
+                content: {
+                  type: 'character',
+                  endIndex: 1353,
+                  value: '#\\(',
+                  pos: { line: 54, col: 19 }
+                }
+              }
+            ]
+          },
+          {
+            type: 'list',
+            datums: [
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 1362,
+                  value: 'char=?',
+                  pos: { line: 54, col: 25 }
+                }
+              },
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 1367,
+                  value: 'char',
+                  pos: { line: 54, col: 32 }
+                }
+              },
+              {
+                type: 'terminal',
+                content: {
+                  type: 'character',
+                  endIndex: 1371,
+                  value: '#\\)',
+                  pos: { line: 54, col: 37 }
+                }
+              }
+            ]
+          },
+          {
+            type: 'list',
+            datums: [
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 1386,
+                  value: 'char=?',
+                  pos: { line: 55, col: 7 }
+                }
+              },
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 1391,
+                  value: 'char',
+                  pos: { line: 55, col: 14 }
+                }
+              },
+              {
+                type: 'terminal',
+                content: {
+                  type: 'character',
+                  endIndex: 1395,
+                  value: '#\\"',
+                  pos: { line: 55, col: 19 }
+                }
+              }
+            ]
+          },
+          {
+            type: 'list',
+            datums: [
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 1404,
+                  value: 'char=?',
+                  pos: { line: 55, col: 25 }
+                }
+              },
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 1409,
+                  value: 'char',
+                  pos: { line: 55, col: 32 }
+                }
+              },
+              {
+                type: 'terminal',
+                content: {
+                  type: 'character',
+                  endIndex: 1413,
+                  value: '#\\;',
+                  pos: { line: 55, col: 37 }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    type: 'list',
+    datums: [
+      {
+        type: 'terminal',
+        content: {
+          type: 'identifier',
+          endIndex: 1580,
+          value: 'define',
+          pos: { line: 62, col: 1 }
+        }
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1592,
+              value: 'read-start',
+              pos: { line: 62, col: 9 }
+            }
+          },
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1599,
+              value: 'expect',
+              pos: { line: 62, col: 20 }
+            }
+          },
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1613,
+              value: 'error-message',
+              pos: { line: 62, col: 27 }
+            }
+          }
+        ]
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1621,
+              value: 'let',
+              pos: { line: 63, col: 3 }
+            }
+          },
+          {
+            type: 'list',
+            datums: [
+              {
+                type: 'list',
+                datums: [
+                  {
+                    type: 'terminal',
+                    content: {
+                      type: 'identifier',
+                      endIndex: 1634,
+                      value: 'first-char',
+                      pos: { line: 63, col: 9 }
+                    }
+                  },
+                  {
+                    type: 'list',
+                    datums: [
+                      {
+                        type: 'terminal',
+                        content: {
+                          type: 'identifier',
+                          endIndex: 1652,
+                          value: 'get-non-eof-char',
+                          pos: { line: 63, col: 21 }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            type: 'list',
+            datums: [
+              {
+                type: 'terminal',
+                content: {
+                  type: 'identifier',
+                  endIndex: 1663,
+                  value: 'if',
+                  pos: { line: 64, col: 5 }
+                }
+              },
+              {
+                type: 'list',
+                datums: [
+                  {
+                    type: 'terminal',
+                    content: {
+                      type: 'identifier',
+                      endIndex: 1671,
+                      value: 'char=?',
+                      pos: { line: 64, col: 9 }
+                    }
+                  },
+                  {
+                    type: 'terminal',
+                    content: {
+                      type: 'identifier',
+                      endIndex: 1682,
+                      value: 'first-char',
+                      pos: { line: 64, col: 16 }
+                    }
+                  },
+                  {
+                    type: 'terminal',
+                    content: {
+                      type: 'identifier',
+                      endIndex: 1689,
+                      value: 'expect',
+                      pos: { line: 64, col: 27 }
+                    }
+                  }
+                ]
+              },
+              {
+                type: 'terminal',
+                content: {
+                  type: 'boolean',
+                  endIndex: 1701,
+                  value: '#t',
+                  pos: { line: 65, col: 8 }
+                }
+              },
+              {
+                type: 'list',
+                datums: [
+                  {
+                    type: 'terminal',
+                    content: {
+                      type: 'identifier',
+                      endIndex: 1716,
+                      value: 'error',
+                      pos: { line: 66, col: 9 }
+                    }
+                  },
+                  {
+                    type: 'terminal',
+                    content: {
+                      type: 'identifier',
+                      endIndex: 1730,
+                      value: 'error-message',
+                      pos: { line: 66, col: 15 }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    type: 'list',
+    datums: [
+      {
+        type: 'terminal',
+        content: {
+          type: 'identifier',
+          endIndex: 1826,
+          value: 'define',
+          pos: { line: 74, col: 1 }
+        }
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1838,
+              value: 'token-make',
+              pos: { line: 74, col: 9 }
+            }
+          },
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1843,
+              value: 'type',
+              pos: { line: 74, col: 20 }
+            }
+          },
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1849,
+              value: 'value',
+              pos: { line: 74, col: 25 }
+            }
+          }
+        ]
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1858,
+              value: 'list',
+              pos: { line: 75, col: 3 }
+            }
+          },
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1863,
+              value: 'type',
+              pos: { line: 75, col: 8 }
+            }
+          },
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1869,
+              value: 'value',
+              pos: { line: 75, col: 13 }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    type: 'list',
+    datums: [
+      {
+        type: 'terminal',
+        content: {
+          type: 'identifier',
+          endIndex: 1922,
+          value: 'define',
+          pos: { line: 79, col: 1 }
+        }
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1934,
+              value: 'token-type',
+              pos: { line: 79, col: 9 }
+            }
+          },
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1940,
+              value: 'token',
+              pos: { line: 79, col: 20 }
+            }
+          }
+        ]
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1948,
+              value: 'car',
+              pos: { line: 80, col: 3 }
+            }
+          },
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 1954,
+              value: 'token',
+              pos: { line: 80, col: 7 }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    type: 'list',
+    datums: [
+      {
+        type: 'terminal',
+        content: {
+          type: 'identifier',
+          endIndex: 2013,
+          value: 'define',
+          pos: { line: 84, col: 1 }
+        }
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 2025,
+              value: 'token-data',
+              pos: { line: 84, col: 9 }
+            }
+          },
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 2031,
+              value: 'token',
+              pos: { line: 84, col: 20 }
+            }
+          }
+        ]
+      },
+      {
+        type: 'list',
+        datums: [
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 2040,
+              value: 'cadr',
+              pos: { line: 85, col: 3 }
+            }
+          },
+          {
+            type: 'terminal',
+            content: {
+              type: 'identifier',
+              endIndex: 2046,
+              value: 'token',
+              pos: { line: 85, col: 8 }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+<<

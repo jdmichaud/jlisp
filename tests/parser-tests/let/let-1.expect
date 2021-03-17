@@ -1,0 +1,21 @@
+[
+  {
+    "variable": { "type": "variable", "value": "variable" },
+    "type": "let",
+    "bindingSpecs": [],
+    "body": {
+      "type": "body",
+      "definitions": [],
+      "expressions": [
+        {
+          "type": "procedurecall",
+          "operator": { "type": "variable", "value": "+" },
+          "operands": [
+            { "type": "number", "value": 1 },
+            { "type": "number", "value": 1 }
+          ]
+        }
+      ]
+    }
+  }
+]

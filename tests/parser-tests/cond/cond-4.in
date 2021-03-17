@@ -1,0 +1,4 @@
+(cond
+  (test1 action1)
+  (test2 action2)
+  (testn actionn))

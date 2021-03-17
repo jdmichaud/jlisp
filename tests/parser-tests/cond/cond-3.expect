@@ -1,0 +1,48 @@
+[
+  {
+    "type": "cond",
+    "condClauses": [
+      {
+        "NodeType": "cond-clause",
+        "test": { "type": "variable", "value": "test" },
+        "sequence": {
+          "type": "sequence",
+          "expressions": [
+            {
+              "type": "procedurecall",
+              "operator": { "type": "variable", "value": "this-is-a-sequence" },
+              "operands": []
+            },
+            {
+              "type": "procedurecall",
+              "operator": { "type": "variable", "value": "+" },
+              "operands": [
+                { "type": "number", "value": 1 },
+                { "type": "number", "value": 1 }
+              ]
+            },
+            {
+              "type": "procedurecall",
+              "operator": { "type": "variable", "value": "some-expression" },
+              "operands": [ { "type": "variable", "value": "pi" } ]
+            },
+            {
+              "type": "procedurecall",
+              "operator": { "type": "variable", "value": "that-s-it" },
+              "operands": [
+                {
+                  "type": "procedurecall",
+                  "operator": { "type": "variable", "value": "+" },
+                  "operands": [
+                    { "type": "number", "value": 3 },
+                    { "type": "number", "value": 4 }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

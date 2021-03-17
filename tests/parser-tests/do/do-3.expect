@@ -1,0 +1,51 @@
+[
+  {
+    "type": "do",
+    "iterationSpecs": [
+      {
+        "type": "interation-spec",
+        "variable": { "type": "variable", "value": "i" },
+        "init": { "type": "number", "value": 0 },
+        "step": {
+          "type": "procedurecall",
+          "operator": { "type": "variable", "value": "+" },
+          "operands": [
+            { "type": "variable", "value": "i" },
+            { "type": "number", "value": 1 }
+          ]
+        }
+      },
+      {
+        "type": "interation-spec",
+        "variable": { "type": "variable", "value": "j" },
+        "init": { "type": "number", "value": 0 },
+        "step": {
+          "type": "procedurecall",
+          "operator": { "type": "variable", "value": "+" },
+          "operands": [
+            { "type": "variable", "value": "j" },
+            { "type": "number", "value": 1 }
+          ]
+        }
+      }
+    ],
+    "test": {
+      "type": "procedurecall",
+      "operator": { "type": "variable", "value": "=" },
+      "operands": [ { "type": "number", "value": 1 }, { "type": "number", "value": 1 } ]
+    },
+    "doResult": { "type": "sequence", "expressions": [] },
+    "commands": [
+      {
+        "type": "procedurecall",
+        "operator": { "type": "variable", "value": "command1" },
+        "operands": []
+      },
+      {
+        "type": "procedurecall",
+        "operator": { "type": "variable", "value": "command2" },
+        "operands": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "type": "letrec",
+    "bindingSpecs": [
+      {
+        "type": "binding-spec",
+        "variable": { "type": "variable", "value": "foo" },
+        "expression": {
+          "type": "procedurecall",
+          "operator": { "type": "variable", "value": "bar" },
+          "operands": []
+        }
+      }
+    ],
+    "body": {
+      "type": "body",
+      "definitions": [],
+      "expressions": [
+        {
+          "type": "procedurecall",
+          "operator": { "type": "variable", "value": "baz" },
+          "operands": []
+        }
+      ]
+    }
+  }
+]

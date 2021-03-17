@@ -1,0 +1,11 @@
+[
+  {
+    "type": "assignment",
+    "variable": { "type": "variable", "value": "pi" },
+    "expression": {
+      "type": "procedurecall",
+      "operator": { "type": "variable", "value": "computepi" },
+      "operands": [ { "type": "number", "value": 1000000 } ]
+    }
+  }
+]

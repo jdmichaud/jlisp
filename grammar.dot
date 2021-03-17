@@ -1,0 +1,52 @@
+digraph finite_state_machine {
+  node [shape = doublecircle]; start comment ident string char bool number punct;
+  node [shape = ellipse];
+  start -> "comment*"   [ label = "[^\\n]*" ];
+  "comment*" -> comment [ label = "\\n" ];
+
+  start -> initial       [ label = "[a-z|!|$|%|&|*|/|:|<|=|>|?|^|_|~]" ];
+  initial -> initial     [ label = "[a-z|!|$|%|&|*|/|:|<|=|>|?|^|_|~|+|-|.|@]*" ];
+  initial -> ident       [ label = whitespace, style = dashed ];
+  start -> special       [ label = "+|-" ];
+  special -> ident       [ label = whitespace, style = dashed ];
+
+  start -> sign          [ label = "[0-9|.]", style = dashed ];
+  special -> sign        [ label = "[0-9|.]", style = dashed ];
+  sign -> num1           [ label = "[0-9]+" ];
+  num1 -> num2           [ label = "." ];
+  num2 -> number         [ label = "[0-9]*" ];
+  sign -> num3           [ label = "." ];
+  num3 -> number         [ label = "[0-9]*" ];
+
+  start -> sharp         [ label = "#" ];
+  sharp -> bool          [ label = "t|f" ];
+  sharp -> ch1           [ label = "\\" ];
+  ch1 -> ch2             [ label = "[a-z]" ];
+  ch2 -> char            [ label = "pace|ewline" ];
+  ch2 -> char            [ label = whitespace, style = dashed ];
+
+  start -> "string*"     [ label = "\"" ];
+  "string*" -> "string*" [ label = "[^\"]" ];
+  "string*" -> escape    [ label = "\\" ];
+  escape -> "string*"    [ label = "\"|\\" ];
+  "string*" -> string    [ label = "\"" ];
+
+  start -> punct         [ label = "[(|)|#(|'|`|,|,@|.]" ];
+
+  start -> start         [ label = "whitespace*" ];
+
+  // LR_0 -> LR_2 [ label = "SS(B)" ];
+  // LR_0 -> LR_1 [ label = "SS(S)" ];
+  // LR_1 -> LR_3 [ label = "S($end)" ];
+  // LR_2 -> LR_6 [ label = "SS(b)" ];
+  // LR_2 -> LR_5 [ label = "SS(a)" ];
+  // LR_2 -> LR_4 [ label = "S(A)" ];
+  // LR_5 -> LR_7 [ label = "S(b)" ];
+  // LR_5 -> LR_5 [ label = "S(a)" ];
+  // LR_6 -> LR_6 [ label = "S(b)" ];
+  // LR_6 -> LR_5 [ label = "S(a)" ];
+  // LR_7 -> LR_8 [ label = "S(b)" ];
+  // LR_7 -> LR_5 [ label = "S(a)" ];
+  // LR_8 -> LR_6 [ label = "S(b)" ];
+  // LR_8 -> LR_5 [ label = "S(a)" ];
+}

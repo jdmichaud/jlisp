@@ -1,0 +1,11 @@
+[{
+  "type": "definition",
+  "variable": {
+    "type": "variable",
+    "value": "a-very-long-variable-name"
+  },
+  "expression": {
+    "type": "variable",
+    "value": "another-variable"
+  }
+}]

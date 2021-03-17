@@ -1,0 +1,23 @@
+[
+  {
+    "type": "lambda",
+    "formals": {
+      "type": "formals",
+      "variables": [ { "type": "variable", "value": "x" } ]
+    },
+    "body": {
+      "type": "body",
+      "definitions": [],
+      "expressions": [
+        {
+          "type": "procedurecall",
+          "operator": { "type": "variable", "value": "+" },
+          "operands": [
+            { "type": "variable", "value": "x" },
+            { "type": "number", "value": 1 }
+          ]
+        }
+      ]
+    }
+  }
+]

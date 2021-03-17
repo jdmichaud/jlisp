@@ -1,0 +1,11 @@
+[
+  {
+    "type": "conditional",
+    "test": {
+      "type": "procedurecall",
+      "operator": { "type": "variable", "value": "=" },
+      "operands": [ { "type": "number", "value": 2 }, { "type": "number", "value": 1 } ]
+    },
+    "consequent": { "type": "number", "value": 42 }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "type": "begin",
+    "sequence": {
+      "type": "sequence",
+      "expressions": [
+        {
+          "type": "procedurecall",
+          "operator": { "type": "variable", "value": "foo" },
+          "operands": [
+            { "type": "variable", "value": "bar" },
+            { "type": "variable", "value": "baz" }
+          ]
+        },
+        {
+          "type": "procedurecall",
+          "operator": { "type": "variable", "value": "+" },
+          "operands": [
+            { "type": "number", "value": 1 },
+            { "type": "number", "value": 1 }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,9 @@
+[{
+  "type": "lambda",
+  "formals": { "type": "formals", "variables": [] },
+  "body": {
+    "type": "body",
+    "definitions": [],
+    "expressions": [ { "type": "number", "value": 42 } ]
+  }
+}]

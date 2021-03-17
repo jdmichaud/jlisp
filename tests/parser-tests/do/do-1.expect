@@ -1,0 +1,28 @@
+[
+  {
+    "type": "do",
+    "iterationSpecs": [],
+    "test": {
+      "type": "procedurecall",
+      "operator": { "type": "variable", "value": "=" },
+      "operands": [ { "type": "number", "value": 1 }, { "type": "number", "value": 1 } ]
+    },
+    "doResult": {
+      "type": "sequence",
+      "expressions": [
+        {
+          "type": "procedurecall",
+          "operator": { "type": "variable", "value": "foo" },
+          "operands": [ { "type": "number", "value": 42 } ]
+        }
+      ]
+    },
+    "commands": [
+      {
+        "type": "procedurecall",
+        "operator": { "type": "variable", "value": "command" },
+        "operands": [ { "type": "variable", "value": "param" } ]
+      }
+    ]
+  }
+]

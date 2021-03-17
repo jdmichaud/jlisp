@@ -1,0 +1,11 @@
+[{
+  "type": "definition",
+  "variable": {
+    "type": "variable",
+    "value": "pi"
+  },
+  "expression": {
+    "type": "number",
+    "value": 3.14
+  }
+}]

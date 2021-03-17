@@ -1,0 +1,13 @@
+[
+  {
+    "NodeType": "and",
+    "tests": [
+      {
+        "type": "procedurecall",
+        "operator": { "type": "variable", "value": "=" },
+        "operands": [ { "type": "number", "value": 1 }, { "type": "number", "value": 1 } ]
+      },
+      { "type": "boolean", "value": true }
+    ]
+  }
+]

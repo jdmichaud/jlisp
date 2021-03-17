@@ -1,0 +1,26 @@
+[{
+  "type": "procedurecall",
+  "operator": { "type": "variable", "value": "time" },
+  "operands": [{
+    "type": "procedurecall",
+    "operator": { "type": "variable", "value": "/" },
+    "operands": [
+      {
+        "type": "procedurecall",
+        "operator": { "type": "variable", "value": "expt" },
+        "operands": [
+          { "type": "number", "value": 123456 },
+          { "type": "number", "value": 123456 }
+        ]
+      },
+      {
+        "type": "procedurecall",
+        "operator": { "type": "variable", "value": "expt" },
+        "operands": [
+          { "type": "number", "value": 123456 },
+          { "type": "number", "value": 123456 }
+        ]
+      }
+    ]
+  }]
+}]

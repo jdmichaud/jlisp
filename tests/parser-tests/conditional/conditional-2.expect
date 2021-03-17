@@ -1,0 +1,30 @@
+[
+  {
+    "type": "conditional",
+    "test": {
+      "type": "procedurecall",
+      "operator": { "type": "variable", "value": "bar" },
+      "operands": [
+        {
+          "type": "procedurecall",
+          "operator": { "type": "variable", "value": "+" },
+          "operands": [
+            { "type": "number", "value": 1 },
+            { "type": "number", "value": 2 }
+          ]
+        },
+        {
+          "type": "procedurecall",
+          "operator": { "type": "variable", "value": "foo" },
+          "operands": []
+        }
+      ]
+    },
+    "consequent": { "type": "number", "value": 42 },
+    "alternate": {
+      "type": "procedurecall",
+      "operator": { "type": "variable", "value": "baz" },
+      "operands": [ { "type": "number", "value": 666 } ]
+    }
+  }
+]

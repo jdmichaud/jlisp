@@ -1,0 +1,27 @@
+[{
+  "type": "procedurecall",
+  "operator": { "type": "variable", "value": "/" },
+  "operands": [{
+    "type": "procedurecall",
+    "operator": { "type": "variable", "value": "-" },
+    "operands": [
+      { "type": "variable", "value": "x" },
+      {
+        "type": "procedurecall",
+        "operator": { "type": "variable", "value": "*" },
+        "operands": [
+          { "type": "number", "value": 2 },
+          { "type": "variable", "value": "pi" }
+        ]
+      },
+      {
+        "type": "procedurecall",
+        "operator": { "type": "variable", "value": "*" },
+        "operands": [
+          { "type": "variable", "value": "n" },
+          { "type": "variable", "value": "n" }
+        ]
+      }
+    ]
+  }]
+}]

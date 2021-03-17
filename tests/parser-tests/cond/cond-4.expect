@@ -1,0 +1,31 @@
+[
+  {
+    "type": "cond",
+    "condClauses": [
+      {
+        "NodeType": "cond-clause",
+        "test": { "type": "variable", "value": "test1" },
+        "sequence": {
+          "type": "sequence",
+          "expressions": [ { "type": "variable", "value": "action1" } ]
+        }
+      },
+      {
+        "NodeType": "cond-clause",
+        "test": { "type": "variable", "value": "test2" },
+        "sequence": {
+          "type": "sequence",
+          "expressions": [ { "type": "variable", "value": "action2" } ]
+        }
+      },
+      {
+        "NodeType": "cond-clause",
+        "test": { "type": "variable", "value": "testn" },
+        "sequence": {
+          "type": "sequence",
+          "expressions": [ { "type": "variable", "value": "actionn" } ]
+        }
+      }
+    ]
+  }
+]

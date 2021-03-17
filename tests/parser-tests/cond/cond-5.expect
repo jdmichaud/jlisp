@@ -1,0 +1,64 @@
+[
+  {
+    "type": "cond",
+    "condClauses": [
+      {
+        "NodeType": "cond-clause",
+        "test": { "type": "variable", "value": "test1" },
+        "sequence": {
+          "type": "sequence",
+          "expressions": [
+            {
+              "type": "procedurecall",
+              "operator": { "type": "variable", "value": "action1" },
+              "operands": []
+            }
+          ]
+        }
+      },
+      {
+        "NodeType": "cond-clause",
+        "test": { "type": "variable", "value": "test2" },
+        "sequence": {
+          "type": "sequence",
+          "expressions": [
+            {
+              "type": "procedurecall",
+              "operator": { "type": "variable", "value": "action2" },
+              "operands": []
+            }
+          ]
+        }
+      },
+      {
+        "NodeType": "cond-clause",
+        "test": { "type": "variable", "value": "test3" },
+        "sequence": {
+          "type": "sequence",
+          "expressions": [
+            {
+              "type": "procedurecall",
+              "operator": { "type": "variable", "value": "action3" },
+              "operands": []
+            }
+          ]
+        }
+      }
+    ],
+    "elseClause": {
+      "type": "sequence",
+      "expressions": [
+        {
+          "type": "procedurecall",
+          "operator": { "type": "variable", "value": "action4-0" },
+          "operands": []
+        },
+        {
+          "type": "procedurecall",
+          "operator": { "type": "variable", "value": "action4-1" },
+          "operands": []
+        }
+      ]
+    }
+  }
+]

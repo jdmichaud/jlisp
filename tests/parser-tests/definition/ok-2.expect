@@ -1,0 +1,11 @@
+[{
+  "type": "definition",
+  "variable": {
+    "type": "variable",
+    "value": "bar"
+  },
+  "expression": {
+    "type": "string",
+    "value": "This is a \\\"great\\\" test"
+  }
+}]

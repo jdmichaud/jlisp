@@ -1,0 +1,11 @@
+[
+  {
+    "type": "cond",
+    "condClauses": [
+      {
+        "NodeType": "cond-clause",
+        "test": { "type": "variable", "value": "test" }
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "variable": { "type": "variable", "value": "variable" },
+    "type": "let",
+    "bindingSpecs": [
+      {
+        "type": "binding-spec",
+        "variable": { "type": "variable", "value": "pi" },
+        "expression": {
+          "type": "procedurecall",
+          "operator": { "type": "variable", "value": "compute-pi" },
+          "operands": [ { "type": "number", "value": 10000 } ]
+        }
+      }
+    ],
+    "body": {
+      "type": "body",
+      "definitions": [],
+      "expressions": [
+        {
+          "type": "procedurecall",
+          "operator": { "type": "variable", "value": "*" },
+          "operands": [
+            { "type": "variable", "value": "pi" },
+            { "type": "variable", "value": "pi" }
+          ]
+        }
+      ]
+    }
+  }
+]

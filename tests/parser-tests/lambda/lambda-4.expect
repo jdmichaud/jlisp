@@ -1,0 +1,34 @@
+[
+  {
+    "type": "lambda",
+    "formals": {
+      "type": "formals",
+      "variables": [
+        { "type": "variable", "value": "a" },
+        { "type": "variable", "value": "b" },
+        { "type": "variable", "value": "c" }
+      ]
+    },
+    "body": {
+      "type": "body",
+      "definitions": [],
+      "expressions": [
+        {
+          "type": "procedurecall",
+          "operator": { "type": "variable", "value": "/" },
+          "operands": [
+            { "type": "variable", "value": "a" },
+            {
+              "type": "procedurecall",
+              "operator": { "type": "variable", "value": "foo" },
+              "operands": [
+                { "type": "variable", "value": "b" },
+                { "type": "variable", "value": "c" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

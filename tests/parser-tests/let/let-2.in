@@ -1,0 +1,1 @@
+(let variable ((pi (compute-pi 10000))) (* pi pi))

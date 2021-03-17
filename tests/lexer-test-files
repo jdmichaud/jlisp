@@ -1,0 +1,14 @@
+starter-files/boolean-tokens.in
+starter-files/character-tokens.in
+starter-files/identifier-tokens.in
+starter-files/number-tokens.in
+starter-files/punctuator-tokens.in
+starter-files/string-tokens.in
+starter-files/error1-tokens.err
+starter-files/error2-tokens.err
+starter-files/error3-tokens.err
+starter-files/error4-tokens.err
+starter-files/error5-tokens.err
+starter-files/error6-tokens.err
+identifiers.in
+characters.in
